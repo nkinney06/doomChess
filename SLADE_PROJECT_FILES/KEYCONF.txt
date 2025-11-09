@@ -1,0 +1,7 @@
+addkeysection "Chess Test" ChessTest
+addmenukey "Open Chess Board + Menu" chess_on
+addmenukey "Close Chess Board + Menu" chess_off
+alias chess_on "puke 902; wait 1"
+alias chess_off "puke 902; openmenu CHESS"
+defaultbind l chess_on
+defaultbind q chess_off

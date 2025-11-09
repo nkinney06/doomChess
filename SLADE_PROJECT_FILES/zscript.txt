@@ -1,0 +1,15 @@
+// zscript.txt
+
+//class PuzzlePlayer : DoomPlayer replaces DoomPlayer
+//{
+//    override int DamageMobj(Actor inflictor, Actor source, int damage, Name damagetype, int flags, double angle)
+//    {
+//        int ret = Super.DamageMobj(inflictor, source, damage, damagetype, flags, angle);
+//
+        // Fire only when real damage was applied and we’re still alive
+//        if (ret > 0 && health > 0) {
+//            ACS_NamedExecuteAlways("ToggleChessOnDamage", 0);
+//			}
+//        return ret;
+//    }
+//}

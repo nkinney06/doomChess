@@ -1,0 +1,22 @@
+  // Old approach; Board (white pieces at bottom)
+  //  StaticText "  +-----------------------+"
+  //  StaticText "8 | ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ |"
+  //  StaticText "7 | ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ |"
+  //  StaticText "6 | . . . . . . . . |"
+  //  StaticText "5 | . . . . . . . . |"
+  //  StaticText "4 | . . . . . . . . |"
+  //  StaticText "3 | . . . . . . . . |"
+  //  StaticText "2 | ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ |"
+  //  StaticText "1 | ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ |"
+  //  StaticText "   +-----------------------+"
+  //  StaticText "    a  b  c  d  e  f  g  h"
+
+OptionMenu "CHESS"
+{
+    Title "Chess Puzzle"
+    //StaticText "Answer on the HUD below the board."
+    Command "1st choice",  "puke 1 1; closemenu"
+    Command "2nd choice",  "puke 1 2; closemenu"
+    Command "3rd choice",  "puke 1 3; closemenu"
+}
+

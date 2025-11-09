@@ -1,0 +1,29 @@
+// DECORATE
+
+Actor PuzzleZombie : ZombieMan replaces ZombieMan
+{
+  States
+  {
+  Death:
+    TNT1 A 0 ACS_NamedExecuteAlways("ShowChessOnKill", 0)
+    Goto Super::Death
+
+  XDeath:
+    TNT1 A 0 ACS_NamedExecuteAlways("ShowChessOnKill", 0)
+    Goto Super::XDeath
+  }
+}
+
+Actor PuzzleImp : DoomImp replaces DoomImp
+{
+  States
+  {
+  Death:
+    TNT1 A 0 ACS_NamedExecuteAlways("ShowChessOnKill", 0)
+    Goto Super::Death
+
+  XDeath:
+    TNT1 A 0 ACS_NamedExecuteAlways("ShowChessOnKill", 0)
+    Goto Super::XDeath
+  }
+}
