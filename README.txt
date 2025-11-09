@@ -13,3 +13,4 @@ If you modify SCRIPTS I needed to do the following:
 	3. move doomChess.o to the slade acs directory.
 	4. make sure to save the project so the .pk3 updates
 
+short video summary here: https://youtu.be/Gn5I2i6-8aQ
